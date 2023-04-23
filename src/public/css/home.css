@@ -1,0 +1,25 @@
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.scroll{
+    height: 100%;
+    justify-content: center;
+    overflow: auto;
+    padding: 2%;
+}
+
+.scroll::-webkit-scrollbar{
+    width: 7px;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+}

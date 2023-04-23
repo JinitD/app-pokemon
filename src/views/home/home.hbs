@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/css/home.css">
+<div class="scroll ">
+    {{#each ob }}
+    <a href="/info/{{url}}" class="adiv w-100">
+        <div class="card text-center align-items-center w-auto m-2 shadow border-0">
+            <div class="d-flex ">
+                <img src="{{img}}" class="card-img-top">
+                <div class="card-body">
+                    <h3 class="card-title">{{name}}</h3>
+                </div>
+            </div>
+        </div>
+    </a>
+    {{/each}}
+
+</div>
